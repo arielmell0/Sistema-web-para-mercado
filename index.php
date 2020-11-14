@@ -1,8 +1,9 @@
 <?php
 
-require_once('models/ProductsModel.php');
-
-$sis_mercado = new productsModel();
-$sis_mercado -> getConsult();
+if(!isset($_GET['controller'])){
+    require_once('controllers/siteController.php');
+    $site = new siteController();
+    $site->getHome();
+} 
 
 ?>

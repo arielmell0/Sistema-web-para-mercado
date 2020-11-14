@@ -10,7 +10,7 @@ class productsModel {
         $Oconn->openConn();
         $conn = $Oconn->getconn();
 
-        $sql = 'SELECT * FROM CLIENTS';
+        $sql = 'SELECT * FROM `usuarios`';
 
         $this -> result = mysqli_query($conn, $sql);
 
