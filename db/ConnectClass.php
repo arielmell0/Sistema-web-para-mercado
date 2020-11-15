@@ -18,12 +18,10 @@ class connectClass{
 
         if(mysqli_errno($this -> conn)){
             echo 'Banco de dados não conectado, erro: ' . mysqli_error($this -> conn);
-        } 
+        }
         
-    }
-
-    public function getConn(){
         return $this -> conn;
+        
     }
 
     //Getters e setters
