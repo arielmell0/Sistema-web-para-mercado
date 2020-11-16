@@ -8,17 +8,18 @@ class siteController{
         require_once('views/templates/footer.php');
     }
 
-    public function listProducts(){
-        require_once('views/templates/header.php');
-        require_once('views/pages/createProducts.php');
-        require_once('views/templates/footer.php');
-    }
-
     public function registerProduct(){
         require_once('views/templates/header.php');
         require_once('views/pages/createProducts.php');
         require_once('views/templates/footer.php');
     }
+
+    public function listProducts(){
+        require_once('views/templates/header.php');
+        require_once('views/pages/listProducts.php');
+        require_once('views/templates/footer.php');
+    }
+
 
     public function registerClient(){
         require_once('views/templates/header.php');
