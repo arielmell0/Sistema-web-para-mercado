@@ -14,16 +14,16 @@
     <div class="barra">
 
         <nav>
-            <a href="views/pages/listProducts.php">
+            <a href="?controller=site&acao=listProducts">
                 <div class="link">Cadastrar produto</div>
             </a>
-            <a href="views/pages/registerProduct.php">
+            <a href="?controller=site&acao=registerProduct.php">
                 <div class="link">Listar produto</div>
             </a>
-            <a href="views/pages/listClients.php">
+            <a href="?controller=site&acao=listClients.php">
                 <div class="link">Cadastrar clientes</div>
             </a>
-            <a href="views/pages/registerClients.php">
+            <a href="?controller=site&acao=registerClients.php">
                 <div class="link">Listar clientes</div>
             </a>
         </nav>

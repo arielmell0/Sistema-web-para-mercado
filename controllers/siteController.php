@@ -13,5 +13,25 @@ class siteController{
         require_once('views/pages/createProducts.php');
         require_once('views/templates/footer.php');
     }
+
+    public function registerProduct(){
+        require_once('views/templates/header.php');
+        require_once('views/pages/createProducts.php');
+        require_once('views/templates/footer.php');
+    }
+
+    public function registerClient(){
+        require_once('views/templates/header.php');
+        require_once('views/pages/listClients.php');
+        require_once('views/templates/footer.php');
+    }
+
+    public function listClients(){
+        require_once('views/templates/header.php');
+        require_once('views/pages/listClients.php');
+        require_once('views/templates/footer.php');
+    }
+
+
     
 }

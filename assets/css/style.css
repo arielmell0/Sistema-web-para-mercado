@@ -50,3 +50,7 @@ nav a{
     margin-top: 0;
     transition-delay: .2s;
 }
+
+.texto{
+    text-align: center;
+}
