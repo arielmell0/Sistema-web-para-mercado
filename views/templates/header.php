@@ -1,16 +1,31 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+<!DOCTYPE>
+<html>
 
 <head>
     <link href="assets/css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web marketplace CRUD</title>
 </head>
 
 <body>
 
-<h1 class="title">Marketplace system</h1>
+    <input type="checkbox" id="check">
+    <label id="icone" for="check"><img src="assets/img/icone.png" alt=""></label>
 
-<h2 class="title"
+    <div class="barra">
+
+        <nav>
+            <a href="views/pages/listProducts.php">
+                <div class="link">Cadastrar produto</div>
+            </a>
+            <a href="views/pages/registerProduct.php">
+                <div class="link">Listar produto</div>
+            </a>
+            <a href="views/pages/listClients.php">
+                <div class="link">Cadastrar clientes</div>
+            </a>
+            <a href="views/pages/registerClients.php">
+                <div class="link">Listar clientes</div>
+            </a>
+        </nav>
+
+    </div>
