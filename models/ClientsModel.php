@@ -4,13 +4,13 @@ class clientsModel {
 
     public $result;
     
-    public function listProducts(){
+    public function listClients(){
         require_once('db/ConnectClass.php');
-        $Oconn = new connectClass('localhost:3306', 'root', '', 'sis_mercado');
+        $Oconn = new connectClass('localhost:3306', 'root', '', 'pw_exemple');
         $Oconn->openConn();
         $conn = $Oconn->openConn();
 
-        $sql = 'SELECT * FROM `usuarios`';
+        $sql = 'SELECT * FROM `clients`';
 
         $this -> result = mysqli_query($conn, $sql);
 
